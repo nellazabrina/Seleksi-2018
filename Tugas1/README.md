@@ -53,9 +53,6 @@ JSON file dibuat untuk tiap kota dengan format
 ![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20bali.jpg?raw=true "Data Bali")
 <p align="center">Data Bali</p>
 
-![Screenshot]("screenshots/data bali.jpg"?raw=true "Data Bali")
-<p align="center">Data Bali</p>
-
 ### Reference
 
 import py_compile
