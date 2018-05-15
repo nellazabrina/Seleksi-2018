@@ -10,6 +10,7 @@ BeatifulSoup : modul untuk memparsing HTML/XML
 json : data scrap disimpan dalam file json
 time : untuk sleep saat scraping per tempat kos
 """
+import py_compile
 from bs4 import BeautifulSoup
 import urllib.request
 import json
