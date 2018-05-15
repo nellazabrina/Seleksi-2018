@@ -32,6 +32,18 @@ JSON file dibuat untuk tiap kota dengan format
 {nama kos: harga}
 
 ### Documentation
+![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20scraping.jpg?raw=true "Data Scraping")
+<p align="center">Proses Data Scraping</p>
+
+![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20di%20yogyakarta.jpg?raw=true "Data Yogyakarta")
+
+![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20kota%20surabaya.jpg?raw=true "Data Surabaya")
+
+![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20kota%20malang.jpg?raw=true "Data Malang")
+
+![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20kota%20bandung.jpg?raw=true "Data Bandung")
+
+![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20dki%20jakarta.jpg?raw=true "Data Jakarta")
 
 ![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20bali.jpg?raw=true "Data Bali")
 
