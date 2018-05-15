@@ -36,16 +36,25 @@ JSON file dibuat untuk tiap kota dengan format
 <p align="center">Proses Data Scraping</p>
 
 ![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20di%20yogyakarta.jpg?raw=true "Data Yogyakarta")
+<p align="center">Data Yogyakarta</p>
 
 ![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20kota%20surabaya.jpg?raw=true "Data Surabaya")
+<p align="center">Data Surabaya</p>
 
 ![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20kota%20malang.jpg?raw=true "Data Malang")
+<p align="center">Data Malang</p>
 
 ![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20kota%20bandung.jpg?raw=true "Data Bandung")
+<p align="center">Data Bandung</p>
 
 ![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20dki%20jakarta.jpg?raw=true "Data Jakarta")
+<p align="center">Data Jakarta</p>
 
 ![Screenshot](https://github.com/nellazabrina/Seleksi-2018/blob/master/Tugas1/screenshots/data%20bali.jpg?raw=true "Data Bali")
+<p align="center">Data Bali</p>
+
+![Screenshot]("screenshots/data bali.jpg"?raw=true "Data Bali")
+<p align="center">Data Bali</p>
 
 ### Reference
 
