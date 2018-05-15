@@ -12,61 +12,42 @@
   <br>
 </h2>
 
+### Deskripsi
+
+Tugas ini dibuat dengan menggunakan bahasa python3 untuk melakukan scraping pada suatu website. Pada scraper ini, saya melakukan scraping di website "https://www.cari-kos.com/". Saya hanya mengambil 10 data dari tiap daerah yaitu (bali, di yogyakarta, dki jakarta, kota bandung, kota malang, dan kota surabaya) dengan melakukan sleep tiap scraping.
 
 ### Specifications
 
 1. Lakukan data scraping dari sebuah laman web untuk memeroleh data atau informasi tertentu __TANPA MENGGUNAKAN API__
 
-2. Daftarkan judul topik yang akan dijadikan bahan data scraping pada spreadsheet berikut: [Topik Data Scraping](http://bit.ly/TopikDataScraping). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal 10 Mei 2018 pukul 20.00 WIB
+2. Peserta juga diminta untuk membuat Makefile sesuai template yang disediakan, sehingga program dengan gampang di-_build_, di-_run_, dan di-_clean_
 
-3. Dalam mengerjakan tugas 1, calon warga basdat terlebih dahulu melakukan fork project github pada link berikut: https://github.com/wargabasdat/Seleksi-2018/tree/master/Tugas1. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan pull request dengan nama ```TUGAS_SELEKSI_1_[NIM]```
+3. Hasil data scraping ini nantinya akan digunakan sebagai bahan tugas analisis dan visualisasi data
 
-4. Pada repository tersebut, calon warga basdat harus mengumpulkan file script dan json hasil data scraping. Repository terdiri dari folder src dan data dimana folder src berisi file script/kode yang __WELL DOCUMENTED dan CLEAN CODE__ sedangkan folder data berisi file json hasil scraper.
+### How to use
+Cara menggunakannya adalah dengan merun file python yang ada (python3 scraper.py) kemudian file akan langsung melakukan scraping pada website tersebut.
 
-5. Peserta juga diminta untuk membuat Makefile sesuai template yang disediakan, sehingga program dengan gampang di-_build_, di-_run_, dan di-_clean_
+### JSON Structure
+JSON file dibuat untuk tiap kota dengan format
+{nama kos: harga}
 
-``` Makefile
-all: clean build run
+### Documentation
 
-clean: # remove data and binary folder
+![Alt text](/Tugas1/screenshots/data bali.jpg?raw=true "Data Bali")
 
-build: # compile to binary (if you use interpreter, then do not implement it)
+### Reference
 
-run: # run your binary
+import py_compile
+from bs4 import BeautifulSoup
+import urllib.request
+import json
+import time
 
-```
+### Author
+Nella Zabrina
 
-6. Deadline pengumpulan tugas adalah __15 Mei 2018 Pukul 23.59__
-
-7. Tugas 1 akan didemokan oleh masing-masing calon warga basdat
-
-8. Demo tugas mencakup keseluruhan proses data scraping hingga memeroleh data sesuai dengan yang dikumpulkan pada Tugas 1
-
-9. Hasil data scraping ini nantinya akan digunakan sebagai bahan tugas analisis dan visualisasi data
-
-10. Sebagai referensi untuk mengenal data scraping, asisten menyediakan dokumen "Short Guidance To Data Scraping" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance)
-
-11. Tambahkan juga gitignore pada file atau folder yang tidak perlu di upload, __NB : BINARY TIDAK DIUPLOAD__
-
-12. JSON harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-13. Berikan README yang __WELL DOCUMENTED__ dengan cara __override__ file README.md ini. README harus memuat minimal konten :
-```
-- Description
-- Specification
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
+### Credit
+terima kasih untuk website "https://www.cari-kos.com/"
 
 <h1 align="center">
   <br>
