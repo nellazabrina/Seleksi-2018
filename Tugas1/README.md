@@ -33,7 +33,7 @@ JSON file dibuat untuk tiap kota dengan format
 
 ### Documentation
 
-![alt text](/Tugas1/screenshots/data bali.jpg)
+![Screenshot](/Tugas1/screenshots/data bali.jpg)
 
 ### Reference
 
